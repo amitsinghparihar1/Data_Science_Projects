@@ -1,1 +1,1 @@
-# Data_Science_Projects
+Customer Churn Prediction project
