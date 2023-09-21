@@ -24,13 +24,7 @@ def predict():
         is_active_member = 'IsActiveMember' in request.form  # Updated to check if it's present
         estimated_salary = float(request.form['EstimatedSalary'])
         
-        # Input data for scaling
         input_data = [[geography, gender, CustomerId,credit_score, age, tenure, balance, num_of_products, has_cr_card, is_active_member, estimated_salary]]
-        
-        # input_data_scaled = scaler.transform(input_data)
-        
-        # # Combine all input data into a single list
-        # final_input = [geography, gender, CustomerId] + input_data_scaled.tolist()[0]
         
         prediction = model.predict(input_data)
         
