@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Weather Index Prediction</title>
+    <style>
+        body {
+            background-color: grey;
+            color: red;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin: 0 auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        label, input, select {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fire Weather Index Prediction</h1>
+    <form method="POST">
+        <label for="Temperature">Enter the temperature:</label>
+        <input type="number" id="Temperature" name="Temperature" step="0.1" required>
+
+        <label for="RH">Enter the relative humidity:</label>
+        <input type="number" id="RH" name="RH" step="0.1" required>
+
+        <label for="Ws">Enter the wind speed in km/h:</label>
+        <input type="number" id="Ws" name="Ws" step="0.1" required>
+
+        <label for="Rain">Enter the rain in mm:</label>
+        <input type="number" id="Rain" name="Rain" step="0.1" required>
+
+        <label for="FFMC">Enter the fine fuel moisture code:</label>
+        <input type="number" id="FFMC" name="FFMC" step="0.1" required>
+
+        <label for="DMC">Enter the duff moisture code:</label>
+        <input type="number" id="DMC" name="DMC" step="0.1" required>
+
+        <label for="ISI">Enter the initial spread index:</label>
+        <input type="number" id="ISI" name="ISI" step="0.1" required>
+
+        <h3>Select the region</h3>
+        <select name="Region">
+            <option value="0">Bejaia Region</option>
+            <option value="1">Sidi-bel Region</option>
+        </select>
+
+        <h3>Select the classes</h3>
+        <select name="Classes">
+            <option value="0">Not fire</option>
+            <option value="1">Fire</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
