@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color : grey;
+                color : red;
+            }
+            form {
+                margin: 0 auto;
+                max-width: 400px;
+                padding: 20px;
+                background-color: white;
+                border-radius: 5px;
+            }
+        </style>
+        <body>
+            <h1> Fire Weather Index Prediction</h1>
+            <form method="POST">
+                <label for="Enter the details:"> Enter the details: </label> <br>
+                <input type="number" placeholder="enter the temperature" name="Temperature" step=0.1 required > <br>
+                <input type="number" placeholder="enter the relative humidity" name="RH" step=0.1 required > <br>
+                <input type="number" placeholder="enter the wind speed in km/h" name="Ws" step=0.1 required > <br>
+                <input type="number" placeholder="enter the rain in mm" name="Rain" step=0.1 required > <br>
+                <input type="number" placeholder="enter the fine fuel moisture code" name="FFMC" step=0.1 required > <br>
+                <input type="number" placeholder="enter the duff moisture code" name="DMC" step=0.1 required > <br>
+                <input type="number" placeholder="enter the initial spread index :" name="ISI" step=0.1 required > <br>
+                <h3> select the region </h3>
+                <select name="Region">
+                    <option value=0 >Bejaia Region </option>
+                    <option value=1	>Sidi- bel Region </option>
+                </select>
+                <h3> select the classes </h3>
+                <select name="Classes">
+                    <option value=0 >not fire </option>
+                    <option value=1	>fire </option>
+                </select>
+                <input type="submit" value="submit">
+            </form>
+        </body>
+        </html>
+
+
+
