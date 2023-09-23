@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diamond Data Input</title>
+    <style>
+        /* Add background color and text color to the body */
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark text color */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Center the form on the page */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Style the form container */
+        .form-container {
+            background-color: #fff; /* White background for form */
+            padding: 20px;
+            background-color: Dark;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+    <h1>Enter Diamond Data</h1>
+    <form method="post">
+        <label for="carat">Carat:</label>
+        <input type="text" id="carat" name="carat" step=0.1 required><br><br>
+        
+        <label for="cut">Cut:</label>
+        <select id="cut" name="cut">
+            <option value="0">Fair</option>
+            <option value="1">Good</option>
+            <option value="2">Very Good</option>
+            <option value="3">Premium</option>
+            <option value="4">Ideal</option>
+        </select><br><br>
+        
+        <label for="color">Color:</label>
+        <select id="color" name="color">
+            <option value="0">D</option>
+            <option value="1">E</option>
+            <option value="2">F</option>
+            <option value="3">G</option>
+            <option value="4">H</option>
+            <option value="5">I</option>
+            <option value="6">J</option>
+        </select><br><br>
+        
+        <label for="depth">Depth:</label>
+        <input type="text" id="depth" name="depth" required><br><br>
+        
+        <label for="table">Table:</label>
+        <input type="text" id="table" name="table" required><br><br>
+        
+        <label for="clarity_I1">
+            <input type="checkbox" id="clarity_I1" name="clarity_I1" value="1"> I1
+        </label><br>
+        
+        <label for="clarity_IF">
+            <input type="checkbox" id="clarity_IF" name="clarity_IF" value="1"> IF
+        </label><br>
+        
+        <label for="clarity_SI1">
+            <input type="checkbox" id="clarity_SI1" name="clarity_SI1" value="1"> SI1
+        </label><br>
+        
+        <label for="clarity_SI2">
+            <input type="checkbox" id="clarity_SI2" name="clarity_SI2" value="1"> SI2
+        </label><br>
+        
+        <label for="clarity_VS1">
+            <input type="checkbox" id="clarity_VS1" name="clarity_VS1" value="1"> VS1
+        </label><br>
+        
+        <label for="clarity_VS2">
+            <input type="checkbox" id="clarity_VS2" name="clarity_VS2" value="1"> VS2
+        </label><br>
+        
+        <label for="clarity_VVS1">
+            <input type="checkbox" id="clarity_VVS1" name="clarity_VVS1" value="1"> VVS1
+        </label><br>
+        
+        <label for="clarity_VVS2">
+            <input type="checkbox" id="clarity_VVS2" name="clarity_VVS2" value="1"> VVS2
+        </label><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</div>
+</body>
+</html>
