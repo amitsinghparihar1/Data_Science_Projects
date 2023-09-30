@@ -54,18 +54,21 @@
 <body>
     <h2>Customer Information Form</h2>
     <form method="post">
-        <label for="CustomerId">Customer ID:</label><br>
-        <input type="text" id="CustomerId" name="CustomerId" required><br>
 
         <label for="CreditScore">Credit Score:</label><br>
         <input type="number" id="CreditScore" name="CreditScore" required><br>
 
         <label for="Geography">Geography:</label><br>
-        <select name="Geography">
-            <option value="0">France</option>
-            <option value="1">Germany</option>
-            <option value="2">Spain</option>
-        </select><br>
+
+        <!-- Create checkbox inputs for each option -->
+        <input type="checkbox" id="France" name="Geography" value="France">
+        <label for="France">France</label><br>
+
+        <input type="checkbox" id="Germany" name="Geography" value="Germany">
+        <label for="Germany">Germany</label><br>
+
+        <input type="checkbox" id="Spain" name="Geography" value="Spain">
+        <label for="Spain">Spain</label><br>
 
         <label for="Gender">Gender:</label><br>
         <select name="Gender">

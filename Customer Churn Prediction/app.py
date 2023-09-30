@@ -14,7 +14,7 @@ def predict():
         # Retrieve data from the form
         CustomerId = request.form['CustomerId']
         credit_score = float(request.form['CreditScore'])
-        geography = request.form['Geography']
+        geography = 'Geography' in request.form # Updated to check if it's present
         gender = request.form['Gender']
         age = float(request.form['Age'])
         tenure = float(request.form['Tenure'])
