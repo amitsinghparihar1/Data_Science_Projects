@@ -1,0 +1,2 @@
+MNIST Dataset:
+The MNIST dataset consists of 60,000 training images and 10,000 test images. Each image is a 28x28 pixel grid, and the goal is to develop a model capable of accurately classifying the digit represented in each image.
