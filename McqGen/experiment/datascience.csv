@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the main goal of Data Science?,a: To collect data | b: To extract useful insights from data | c: To visualize data | d: To store data,b
+Which programming languages are commonly used in Data Science?,a: Java and C++ | b: Python and R | c: JavaScript and Ruby | d: PHP and SQL,b
+What is the importance of Machine Learning in Data Science?,a: It helps in automating tasks | b: It helps in data visualization | c: It helps in data collection | d: It helps in data storage,a
+Why is knowledge of Statistics important in Data Science?,a: To build models | b: To manage databases | c: To understand real-world events with data | d: To automate tasks,c
+What is the purpose of Model Deployment in Data Science?,a: To collect data | b: To analyze data | c: To make predictions on new datasets | d: To visualize data,c

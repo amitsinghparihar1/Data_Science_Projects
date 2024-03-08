@@ -1,0 +1,53 @@
+
+“Data science is the study of extracting useful insights from data using scientific methods, statistical techniques, and computational algorithms.“
+
+In today’s world, a large amount of data is generated daily. The main challenge is to deal with this data and extract insights from it to help various organizations and businesses. This is where Data Science comes to the rescue to find patterns and insights.
+
+If you are passionate about data science and want to know all about it, we will answer your questions like what is data science, what tools are used in data science, or what skills are required to become a data scientist. In this article, we will deeply explore data science concepts, why is it important, and how to make a career in data science.
+
+What is Data Science in Simple Words?
+Data science is the study to extract useful insights from the data.
+
+Data science involves the process of collecting, analyzing, and interpreting large amounts of data to find patterns, insights, and trends. The insights are then used to make data-driven decisions.
+
+Some Key points to remember about Data Science:
+
+Data science brings together ideas, data examination, machine learning, and their related strategies to understand and examine real-world events with data. 
+It is an extension of data analysis fields such as data mining, statistics, and predictive analysis.
+Data science also uses the concepts of other CS fields like information science, statistics, mathematics, and computer science.
+Some of the techniques utilized in Data Science include machine learning, visualization, pattern recognition, probability modeling data, data engineering, signal processing, etc.
+Data Science Lifecycle
+The Data Science lifecycle refers to the continuous process of transforming data into meaningful insights. It includes a collection of individual steps that need to be taken, for a successful data science project.
+
+The 6 steps in a data science lifecycle are:
+
+Understanding the Business Problem: Before starting any data science projects we understand the business requirement and needs of the projects. This helps us in what type of model and evaluation matrix to use for our model.
+Data Collection: After understanding the business requirements we collect the data that can be useful to our model building. 
+Data Preparation: In working with real-life projects the data we have are not suitable for direct feeding to the model. our data may have missing values, categorical data, or outliers data. we first handle all these issues and clean our dataset in the dataset preparation task.
+Model Building: In the model building stage we choose our type of model based on our data knowledge also we choose different hyperparameters like evaluation matrix, and the percentage of data to use for training and testing.
+Model Evaluation: In model evaluation, we check if the model is ready to be deployed. The model is tested with unseen data to check the model’s performance. If the model has any errors it is sent back to the model building step, else it progresses a step ahead.
+Model Deployment: In model deployment, we use the serializing method to upload our model from the Python object to disk and again deserialize the model to make predictions on a new dataset from it. we also used cloud web services to host our model.
+Feedback: In the feedback phase, we create reports using charts, graphs, or tables which makes it easier to communicate the results or findings.
+Read more – Data Science Lifecycle
+
+Data Science Prerequisites
+Some important concepts that you should know before learning data science are:
+
+1. Programming
+Data science may not be a coding-driven study, but you should be familiar with programming languages like Python and R. Many Python libraries are used in data science projects and R is used in statistical analysis and data visualization.
+
+Related Resources :
+
+Top 10 Python Libraries for Data Science
+Best Python libraries for Machine Learning
+2. Machine Learning
+Machine learning is one of the most important aspects of data science. Machine learning helps in automating tasks by building models, allowing us to solve problems with fewer codes and more understanding.
+
+3. Database Management
+Data is the most important element in data science, storing and managing data is expected from a data scientist. Databases are used to store and manipulate data, so you should also know how to work with certain databases like SQL, MongoDB, etc.
+
+4. Statistics
+Knowing statistics helps you in many data operations like distributions, hypothesis testing, clustering, etc. Mathematical Statistics is the most basic and important skill in data science.
+
+5. Modelling
+Building a model using old data is very useful to predict future outcomes. Modeling is also a sub-branch of machine learning and finds its application in various fields like vaccine testing, fraud detection, etc.
