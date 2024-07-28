@@ -1,0 +1,134 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-header {
+    color: #4B0082; /* Purple header */
+    margin-bottom: 10px;
+}
+
+/* Main styles */
+main {
+    background-color: #ffffff; /* White background for main section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+/* Text input styles */
+.text-input {
+    width: calc(100% - 100px); /* Responsive input width */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #272387; /* Purple border color on focus */
+}
+
+/* Submit button styles */
+.btn-submit {
+    background-color: #202987; /* Purple button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #360061; /* Darker purple on hover */
+}
+
+/* Chat container styles */
+.chat-container {
+    background-color: #f9f9f9; /* Light gray chat background */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.user-message, .bot-message {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.user-message {
+    text-align: right;
+    background-color: #4B0082; /* Purple user message */
+    color: white;
+}
+
+.bot-message {
+    text-align: left;
+    background-color: #ddd; /* Light gray bot message */
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Feedback button styles */
+.btn-feedback {
+    background-color: #4B0082; /* Purple button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+}
+
+.btn-feedback:hover {
+    background-color: #141c78; /* Darker purple on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .text-input {
+        width: calc(100% - 20px); /* Adjust width for smaller screens */
+    }
+}
+
+
+
+
+
+
+

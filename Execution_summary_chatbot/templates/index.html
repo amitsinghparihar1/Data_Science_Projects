@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    
+    <title>Execution Log Chatbot</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="main-header">💬 Execution Log Chatbot</h1>
+            <p>Ask questions about execution logs and get instant answers!</p>
+        </header>
+
+        <main>
+            <form method="POST">
+                <input type="text" name="question" class="text-input" placeholder="Type your question here...">
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+
+            {% if response %}
+            <section class="answer">
+                <h2>💡 Answer</h2>
+                <div class="bot-message">{{ response }}</div>
+            </section>
+            {% endif %}
+
+            <section class="conversation-history">
+                <h2>🗂️ Conversation History</h2>
+                {% for q, r in conversation_history %}
+                <div class="chat-container">
+                    <div class="user-message"><strong>User:</strong> {{ q }}</div>
+                    <div class="bot-message"><strong>Bot:</strong> {{ r }}</div>
+                </div>
+                {% endfor %}
+            </section>
+        </main>
+
+        <footer>
+            <a href="{{ url_for('feedback') }}" class="btn-submit">Give Feedback</a>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
